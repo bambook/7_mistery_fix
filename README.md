@@ -6,35 +6,21 @@
 
 # Как использовать
 
-    engl: This function is implementing Quadratic equation
-    see https://en.wikipedia.org/wiki/Quadratic_equation
+    это функция расчета корней квадратного уравнения
+    см. https://ru.wikipedia.org/wiki/Квадратное_уравнение
+    или https://en.wikipedia.org/wiki/Quadratic_equation
 
-    examples is below, launch from command line:
-    python -i quadratic_equation.py
-
-    ----------------
-    launch doctest's:
-    python -m doctest quadratic_equation.py -v
-
-    launch unittest's (they are in other file):
+    -----------------
+    запуск unittest-ов (в отдельном файле):
     python tests.py 
 
-    ----------------------------------------------------------
-    rus: это функция расчета корней квадратного уравнения
-    см. https://ru.wikipedia.org/wiki/Квадратное_уравнение
-
+    -----------------
     Примеры ниже, запускать из командной строки:
 
     python -i quadratic_equation.py
 
-    -----------------
-    запуск doctest-ов:
-    python -m doctest quadratic_equation.py -v
-
-    запуск unittest-ов (в отдельном файле):
-    python tests.py 
-
     ----------------------------------------------------------
+    >>> import quadratic_equation
     >>> root1, root2 = get_roots(1, -2, 1)
     >>> print('root1 = ', root1)
     root1 =  1.0
