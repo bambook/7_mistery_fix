@@ -8,7 +8,6 @@
 
     это функция расчета корней квадратного уравнения
     см. https://ru.wikipedia.org/wiki/Квадратное_уравнение
-    или https://en.wikipedia.org/wiki/Quadratic_equation
 
     -----------------
     запуск unittest-ов (в отдельном файле):
